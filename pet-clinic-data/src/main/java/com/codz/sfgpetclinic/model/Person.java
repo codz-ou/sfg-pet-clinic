@@ -1,6 +1,6 @@
 package com.codz.sfgpetclinic.model;
 
-public class Person {
+public class Person extends BaseEntity {
 
     private String firstName;
     private String lastName;
@@ -21,4 +21,7 @@ public class Person {
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
+
+
+
 }
