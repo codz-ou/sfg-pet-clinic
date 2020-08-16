@@ -1,0 +1,5 @@
+com\codz\sfgpetclinic\bootstrap\DataLoader.class
+com\codz\sfgpetclinic\controllers\IndexController.class
+com\codz\sfgpetclinic\controllers\VetController.class
+com\codz\sfgpetclinic\controllers\OwnerController.class
+com\codz\sfgpetclinic\SfgPetClinicApplication.class

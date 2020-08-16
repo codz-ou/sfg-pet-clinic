@@ -1,0 +1,14 @@
+com\codz\sfgpetclinic\model\BaseEntity.class
+com\codz\sfgpetclinic\services\map\VetServiceMap.class
+com\codz\sfgpetclinic\model\Vet.class
+com\codz\sfgpetclinic\services\OwnerService.class
+com\codz\sfgpetclinic\model\Owner.class
+com\codz\sfgpetclinic\model\Person.class
+com\codz\sfgpetclinic\model\Pet.class
+com\codz\sfgpetclinic\services\map\OwnerServiceMap.class
+com\codz\sfgpetclinic\services\PetService.class
+com\codz\sfgpetclinic\model\PetType.class
+com\codz\sfgpetclinic\services\map\AbstractMapService.class
+com\codz\sfgpetclinic\services\map\PetServiceMap.class
+com\codz\sfgpetclinic\services\VetService.class
+com\codz\sfgpetclinic\services\CrudService.class
