@@ -1,31 +1,31 @@
 package com.codz.sfgpetclinic.services.map;
 
-import com.codz.sfgpetclinic.model.PetType;
-import com.codz.sfgpetclinic.services.PetTypeService;
+import com.codz.sfgpetclinic.model.Visit;
+import com.codz.sfgpetclinic.services.VisitService;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 @Service
-public class PetTypeServiceMap extends AbstractMapService<PetType, Long> implements PetTypeService {
+public class VisitMapService extends AbstractMapService<Visit, Long> implements VisitService {
 
     @Override
-    public Set<PetType> findAll() {
+    public Set<Visit> findAll() {
         return super.findAll();
     }
 
     @Override
-    public PetType findById(Long id) {
+    public Visit findById(Long id) {
         return super.findById(id);
     }
 
     @Override
-    public PetType save(PetType object) {
+    public Visit save(Visit object) {
         return super.save(object);
     }
 
     @Override
-    public void delete(PetType object) {
+    public void delete(Visit object) {
         super.delete(object);
     }
 
