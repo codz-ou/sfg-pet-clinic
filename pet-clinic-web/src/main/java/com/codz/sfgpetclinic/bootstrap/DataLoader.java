@@ -28,10 +28,10 @@ public class DataLoader implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
 
-        int count = petTypeService.findAll().size();
-        if (count == 0){
-            loadData();
-        }
+//        int count = petTypeService.findAll().size();
+//        if (count == 0){
+//            loadData();
+//        }
 
     }
 
@@ -54,11 +54,11 @@ public class DataLoader implements CommandLineRunner {
 
         Speciality surgery = new Speciality();
         radiology.setDescription("Surgery");
-        Speciality savedSurgery = specialityService.save(radiology);
+        Speciality savedSurgery = specialityService.save(surgery);
 
         Speciality dentistry = new Speciality();
         radiology.setDescription("Dentistry");
-        Speciality SavedDentistry = specialityService.save(radiology);
+        Speciality SavedDentistry = specialityService.save(dentistry);
 
         System.out.println("Specialties loaded...");
 
@@ -69,6 +69,7 @@ public class DataLoader implements CommandLineRunner {
         owner1.setAddress("E. Vilde Tee 121");
         owner1.setCity("Tallinn");
         owner1.setTelephone("57894466");
+
 
         Pet mikesPet = new Pet();
         mikesPet.setPetType(savedDogPetType);
